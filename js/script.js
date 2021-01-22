@@ -193,8 +193,6 @@ $(function(){
 	  /*Scroll 부드럽게*/
 	  var scrollSpeed=700;
 	  function pageScroll(object){
-		  console.log(object);
-		  console.log(!object);
 		  if(!object){
 			  $("html,body").animate({scrollTop: 0}, scrollSpeed);
 		  }else{
