@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+
+/* CSS Document */
+ /* For tablets & smart phones */
+@media (max-width: 767px) {
+body {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#content {
+	width: auto
+}
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+#content {
+	width: auto
+}
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+#content {
+	width: 724px
+}
+}
+
+/* For larger displays */
+@media (min-width:1200px) {
+#content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.control_panel {
+	z-index:10;
+	position: relative;
+	top: 60px;
+	width: 880px;
+	height: 121px;
+	margin: 0 auto;
+	overflow:hidden;	
+}
+
+.control_button {
+	position:relative;
+	
+	width:120px;
+	height:242px;
+	cursor: pointer;
+	display:inline-block;
+	margin-left:40px;
+}
+.control_button:hover{
+top:-121px;	
+}
+.control_button.active{
+ top:-121px;	
+}
+.control_panel .control_button:nth-child(1){
+	background:url(../images/notice_images/sub_bike3_menu_01.png) no-repeat;
+}
+.control_panel .control_button:nth-child(2){
+	background:url(../images/notice_images/sub_bike3_menu_02.png) no-repeat;
+}
+.control_panel .control_button:nth-child(3){
+	background:url(../images/notice_images/sub_bike3_menu_03.png) no-repeat;
+}
+.control_panel .control_button:nth-child(4){
+	background:url(../images/notice_images/sub_bike3_menu_04.png) no-repeat;
+}
+.control_panel .control_button:nth-child(5){
+	background:url(../images/notice_images/sub_bike3_menu_05.png) no-repeat;
+}
+#wrap {
+	width: 100%;
+	margin-top: 120px;
+	min-height: 700px;
+}
+.animation_canvas {
+	width: 523px;
+	margin: 0 auto;
+	height: 724px;
+	overflow: hidden;
+}
+.slider_panel {
+	width: 3800px;
+	position: relative;
+	
+}
+.slider_panel>li {
+	float: left;
+	width: 523px;
+}
+
+.pre_move {
+	position: absolute;
+	left: 0%;
+	top: 0px;
+	z-index:0;
+	
+}
+.next_move {
+	position: absolute;
+	right: 0%;
+	top: 660px;
+	
+}
+#bar {
+	position: absolute;
+	width: 40%;
+	height: 42px;
+	top: 680px;
+	left: 40%;
+	background: url(../images/notice_images/safety-precaution.png) no-repeat;
+	z-index: 100;
+}
+
+/*.control_panel {
+	position: absolute;
+	width: 860px;
+	height: 110px;
+	top: 10%;
+	left: 28%;
+	margin: 0 auto;
+		
+}
+.control_button {
+	width: 142px;
+	height: 110px;
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	cursor: pointer;
+	padding: 0 15px 0 15px;
+}
+.control_button img{
+	position: absolute;
+	bottom: 0;
+}
+/*.control_button:nth-child(1) {
+	top: 2px;
+	background: url(../images/m_bike_01.png) no-repeat;
+}
+.control_button:nth-child(2) {
+	top: 2px;
+	left: 20%;
+	background: url(../images/m_bike_02.png) no-repeat;
+}
+.control_button:nth-child(3) {
+	top: 0.1px;
+	left: 40%;
+	background: url(../images/m_bike_03.png) no-repeat;
+}
+.control_button:nth-child(4) {
+	
+	left: 60%;
+	background: url(../images/m_bike_04.png) no-repeat;
+}
+.control_button:nth-child(5) {
+	top: 1px;
+	left: 80%;
+	background: url(../images/m_bike_05.png) no-repeat;
+}
+
+.control_button:nth-child(1):hover {
+	background: url(../images/r_bike_01.png) no-repeat;
+}
+.control_button:nth-child(2):hover {
+	background: url(../images/r_bike_02.png) no-repeat;
+}
+.control_button:nth-child(3):hover {
+	background: url(../images/r_bike_03.png) no-repeat;
+}
+.control_button:nth-child(4):hover {
+	background: url(../images/r_bike_04.png) no-repeat;
+}
+.control_button:nth-child(5):hover {
+	background: url(../images/r_bike_05.png) no-repeat;
+}
+
+.animation_canvas {
+	position: absolute;
+	width: 753px;
+	height: 634px;
+	top: 27%;
+	left: 30%;
+	overflow: hidden;
+}
+.slider_panel {
+	position: absolute;
+	width: 500%;
+}
+.slider_image {
+	width: 753px;
+	height: 634px;
+	float: left;
+}
+.slider_image>img {
+	position: absolute;
+}
+.pre_move {
+	position: absolute;
+	top: 72%;
+	left: 25%;
+	cursor: pointer;
+}
+.next_move {
+	position: absolute;
+	top: 72%;
+	left: 71%;
+	cursor: pointer;
+}
+#bar {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	top: 65%;
+	background: url(../images/bar_01.png) repeat-x;
+	z-index: -10;
+}*/
+}
+
+
+

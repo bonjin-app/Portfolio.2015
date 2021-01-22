@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+#visual{
+	position:relative;
+	background:url(../images/images/main_image.png) no-repeat;
+	background-position:center; height:163px;
+}
+#text{
+	width:100%;
+	height:	39px;
+}
+#text li{
+	padding:0 4px 0 4px;
+	float:left;
+}
+#text ul{
+	padding-top:8px;
+	margin:0 auto;
+	width:305px;
+	height:15px;
+}
+#text a{
+	font-family:'Nanum Gothic', sans-serif;
+	color:#000000;
+	font-size:9px ;
+	font-weight:600;
+	text-decoration:none;
+}
+#body{
+	width:100%;
+}
+#contents{
+	width:100%;
+}
+#image{
+	width:100%;height:203px;
+}
+#image li{
+	float:left;
+	padding:5px;
+}
+#love{
+	width:100%;
+}
+#love ul{
+	height:34px;
+}
+#love li{
+	padding:3px;
+	float:left;
+	height:26px;
+
+}
+#love:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#box div{
+	float:left;
+}
+#box p{
+	float:right;
+	padding-top:2px;
+	padding-right:2px;
+	font-size:4px;
+}
+#box a{
+	text-decoration:none;
+	color:#151515;
+}
+#box{
+	width:100%;
+	height:82px;
+}
+#review{
+	position:relative;
+	background:url(../images/images/review_box.png) no-repeat;
+	width:49%;height:82px;
+}
+#review .text{
+	right:2px;
+}
+#faq{
+	position:relative;
+	width:49%;height:82px;
+	background:url(../images/images/faq_box.png) no-repeat;
+}
+#faq .text{
+	right:2px;
+}
+.text{
+	position:absolute;
+	font-family:'Nanum Gothic', sans-serif;
+	padding:15px 0 0 9px;font-size:8px;
+}
+.text li{
+	font-family:'Nanum Gothic', sans-serif;
+	padding:.5px;
+	cursor:pointer;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

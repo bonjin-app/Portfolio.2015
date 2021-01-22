@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: 0;
+}
+body {
+	background-color: #ffffff;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+@font-face{
+	font-family:'NGothic';
+	src:url(../font/NanumGothic.woff) format('woff');
+}
+@font-face{
+	font-family:'NGothicEB';
+	src:url(../font/NanumGothicExtraBold.woff) format('woff');
+}
+body{
+	font: 14px "NGothicEB", Gulim;
+}

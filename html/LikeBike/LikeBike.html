@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="css/reset.css"/>
+<link type="text/css" rel="stylesheet" href="css/popup.css"/>
+<link type="text/css" rel="stylesheet" href="css/main.css"/>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollorama.js"></script>
+<script type="text/javascript" src="js/jquery.scrolling-parallax.js"></script>
+<script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.innerfade.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/minibike.js"></script>
+<script type="text/javascript" src="js/popup.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<title>Like Bike</title>
+</head>
+
+<body>
+<div id="popup"><!--id값 스크립트파일id값과 일치 시켜서 사용--> 
+  <span class="button b-close"><span>X</span></span> <!-- 닫기 버튼 (스타일은 알아서 지정) -->
+  <div class="contents"></div>
+  <!-- 컨텐츠가 들어갈 영역 지정 (이미지, html 등.. 여러가지를 동적으로 부를수 있다. --> 
+</div>
+<div id="wrap"> 
+  
+  <!--헤더영역시작-->
+  <header id="header">
+    <div id="h1">
+      <h1><a href="#" class="logo"><img class="main_logo" src="images/main_images/main_logo.png" alt="메인로고"/></a></h1>
+      <ul id="menu" class="menu">
+        <li id="menu1"><a href="#home"><img src="images/main_images/home.png" alt="home"/></a></li>
+        <li id="menu2"><a href="#b1"><img src="images/main_images/bike.png" alt="bike"/></a></li>
+        <li id="menu3"><a href="#b2"><img src="images/main_images/course.png" alt="course"/></a></li>
+        <li id="menu4"><a href="#b4"><img src="images/main_images/notice.png" alt="notice"/></a></li>
+      </ul>
+    </div>
+  </header>
+  <!--헤더영역끝--> 
+  <!--섹션영역시작-->
+  <div id="allmain">
+    <section id="home">
+      <div id="cloud1" class="content"> <img src="images/main_images/cloud1.png" alt="구름1"/> </div>
+      <div id="cloud2" class="content"> <img src="images/main_images/cloud2.png" alt="구름2"/> </div>
+      <div id="cloud3" class="content"> <img src="images/main_images/cloud3.png" alt="구름3"/> </div>
+    
+      <div id="section1">
+        <div id="logo_y" class="content"><img src="images/main_images/logo_y.png" alt="로고옐로우"/></div>
+        <div id="b1" class="content"> <a href="#"><img src="images/main_images/bike_color.png" alt="자전거소개"/></a> </div>
+        <div id="b2" class="content"> <a href="#"><img src="images/main_images/course1_color.png" alt="코스1"/></a> </div>
+        <div id="b3" class="content"> <a href="#"><img src="images/main_images/course2_color.png" alt="코스2"/></a> </div>
+        <div id="b4" class="content"> <a href="#"><img src="images/main_images/safy_color.png" alt="준비물"/></a> </div>
+        <div id="b5" class="content"> <a href="#"><img src="images/main_images/pre_color.png" alt="안전수칙"/></a> </div>
+        <div id="mainlight" class="content"><img src="images/main_images/mainlight.png" alt="메인불빛"/></div>
+    
+        <div id="light1" class="content"><img src="images/main_images/light1.png" alt="불빛1"/></div>
+        <div id="light2" class="content"><img src="images/main_images/light1.png" alt="불빛2"/></div>
+        
+        <div id="light3" class="content"><img src="images/main_images/light2.png" alt="창문불빛1"/></div>
+        <div id="light4" class="content"><img src="images/main_images/light3.png" alt="창문불빛2"/></div>
+        
+        
+        <div id="water1" class="content"><img src="images/main_images/water1.png" alt="분수대"/></div>
+
+        <div id="cage1" class="content"><img src="images/main_images/cage2.png" alt="새장2"/></div>
+        <div id="lighthouse1" class="content"><img src="images/main_images/lighthouse1.png" alt="등대불빛"/></div>
+        <div id="lighthouse2" class="content"><img src="images/main_images/lighthouse2.png" alt="등대불빛2"/></div>
+        
+      </div>
+    </section>
+  </div>
+  <!--섹션영역끝--> 
+  
+  <!--푸터영역시작-->
+  <footer id="footer">
+    <p class="copyright">Team BJN(c) Bundang-gu, Seongnam City, Korea Tel:010-9852-0000</p>
+  </footer>
+  <!--푸터영역끝--> 
+  <!--미니바이크시작-->
+  <div id="minibike-container">
+    <div id="minibike">
+      <div id="minibike-object"> </div>
+      <div id="minibike-lights"></div>
+    </div>
+  </div>
+  <!--미니바이크 끝--> 
+</div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+#recomm_main{
+	/*border:1px solid #000000;*/
+	position:relative;
+	width:1200;
+	margin:0 auto;
+	height:510px;
+	overflow:hidden;  /*값을 주지않으면 화면 밖으로 출력됨*/
+	z-index:30;	
+}
+#frame_box{
+	position:relative;
+	width:200%;
+}
+#frame_box:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.maincon{
+	width:1200px;
+	height:510px;
+	float:left;
+}
+.maincon:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.maincon>h1{
+	position:absolute;
+	top:295px;
+	left:680px;
+}
+#arrow a{
+	position:absolute;
+	top:210px;
+}
+#arrow a img{
+	
+}
+.prev{
+	left:24px;
+}
+.next{
+	right:24px;
+}
+#main_roll{
+	position:absolute;
+	left:93%;
+	bottom:22px;
+}
+#main_roll li{
+	display:inline;
+}
+/*content 영역 */
+#content{
+   position:relative;
+   margin:0 auto;
+   height:392px;
+}
+#content>ul{
+	position:relative;
+	margin:0 auto;
+    width:300px;
+    float:left;
+}
+/* 1번째 박스 시작*/
+#content>div #sidemenu{
+   display:block;
+   width:100%;
+   height:100%; 
+}
+#side_btn{
+	height:392px;
+}
+#side_btn li{
+	padding:30px 0px 12px 1px;
+}
+/* 1번째 박스 끝*/
+
+/* 2번째 박스 시작*/
+.center_img{
+	padding-top:29px;
+	display:block;
+	height:363px;
+}
+#rest_img>ul>li>img{
+	width:250px;
+	height:335px;
+}
+
+
+.the{
+ z-index:100;
+ position:absolute;
+ right:60px;
+ top:35px;
+ text-decoration:none;
+ font: 10px "나눔고딕", "굴림", "돋움";
+ color:#4D4C4C;
+}
+/* 3번째 박스 끝*/
+#review{
+	border-right:1px solid #B0B0B0;
+	background:url(../images/main_img/right_box_review.jpg) no-repeat;
+	width:299px;
+	height:154px;
+	margin-top:29px;
+}
+#review>p{
+	width:24px;
+	height:9px;
+	position:absolute;
+	right:10px;
+	top:40px;
+}
+.rigth_li1{
+	padding:40px 0 0 17px;
+}
+
+#faq{
+	border-right:1px solid #B0B0B0;
+	position:absolute;
+	background:url(../images/main_img/right_box_faq.jpg) no-repeat;
+	width:299px;
+	height:154px;
+	margin-top:29px;
+}
+#faq>p{
+	width:24px;
+	height:9px;
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+.rigth_li2{
+	padding:40px 0 0 17px;
+}
+
+
+/* 4번째 박스 끝*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

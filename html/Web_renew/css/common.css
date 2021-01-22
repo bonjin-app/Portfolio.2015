@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+.all{
+  width:1200px;
+  position:relative;
+  margin:0 auto;
+  
+}
+
+#firstheadder{
+	margin:0 auto;
+	position:relative;
+	width:1200px;
+	/*border:1px solid #000000;*/
+	z-index:40;		/*층의 구조*/
+}
+#firstheadder>h1{
+	padding:45px 0 13px 1px;  
+	height:45px;  /*가로값을 설정안하면 부모값기준크기*/
+}
+.util{
+	width:auto;
+	position:absolute;
+	right:24px;
+	top:27px;
+}
+.util li{
+	display:inline;
+	padding-left:15px;
+	vertical-align:middle;
+}
+
+
+
+/*nav 요소시작*/
+#gnb{
+	width:476px;
+	position:absolute;
+	top:72px;
+	right:15px;
+}
+#gnb a{
+	text-decoration:none;
+	color:#000000;
+}
+
+.gnblist>li{
+	float: left;
+	margin-left: 12px;
+}
+
+.gnblist>li:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.gnblist>li>ul#line1{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	height:32px;
+	font:12px "나눔고딕", "굴림", "돋움";
+	width:345px;
+	display:none;
+	background:url(../images/main_img/botton_menu_01.png) no-repeat;
+}
+.gnblist>li>ul#line2{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	display:none;
+	height:32px;
+	font:12px "나눔고딕", "굴림", "돋움";
+	width:430px;
+	background:url(../images/main_img/botton_menu_02.png) no-repeat;
+}
+.gnblist>li>ul#line3{
+	position: absolute;
+	top: 20px;
+	display:none;
+	left: 100px;
+	height:32px;
+	font:12px "나눔고딕", "굴림", "돋움";
+	width:350px;
+	background:url(../images/main_img/botton_menu_03.png) no-repeat;
+}
+.gnblist>li>ul#line4{
+	position: absolute;
+	top: 20px;
+	left: 160px;
+	display:none;
+	height:32px;
+	font:12px "나눔고딕", "굴림", "돋움";
+	width:330px;
+	background:url(../images/main_img/botton_menu_04.png) no-repeat;
+}
+.gnblist>li>ul#line5{
+	position: absolute;
+	top: 20px;
+	left: 410px;
+	display:none;
+	height:32px;
+	font:12px "나눔고딕", "굴림", "돋움";
+	width:55px;
+	background:url(../images/main_img/botton_menu_05.png) no-repeat;
+}
+.gnblist>li>ul#line5 a{
+	padding-left:5px;
+}
+.text_menu{
+	color:#002CFF;
+}
+.gnblist>li>ul>li{
+	margin-top:11px;
+	float: left;
+	padding-left:5px;
+}
+.gnblist>li>ul>li a{
+	/*border:1px solid #000000;*/
+}
+
+.gnblist>li>ul>li:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*nav 요소끝*/
+footer{
+	/*border:1px solid #41d0a6;*/
+	width:1200px;
+	height:76px;
+	position:relative;
+	margin:0 auto;
+}
+footer>div{
+	width:898px;
+	height:76px;
+}
+
+footer>h1{
+	width: 207px;
+	height: 43px;
+	top: 18px;
+	position: absolute;
+	padding: 1px 0 14px 1px;
+	text-align: center;
+	
+}
+
+footer>div{
+	font:12px "나눔고딕", "굴림", "돋움";
+    position:absolute;
+	left:302px;
+}
+footer p{
+	padding:3px 0 8px 3px;
+}

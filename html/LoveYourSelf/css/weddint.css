@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contents{	width:1200px; 	height:100%;	margin:0 auto;	margin-top:58px;}
+.contents>div{	text-align:center;	border-bottom:1.5px solid #A7A7A7;	margin-bottom:25px;		}
+.contents>div>p{	color:#8E8E8E;	font-weight:bolder;	margin-bottom:5px;	font-family:"나눔바른고딕", "나눔바른고딕 옛한글", "나눔고딕";	letter-spacing:-1px;}
+.contents ul{	margin:0 auto;   	width:1107px;	height:462px;	margin-bottom:87px;	}
+.contents ul li{ float:left;	position:relative; display:block; width:308px; height:462px;	margin-right:88.5px; }
+.contents ul li:last-child{	margin-right:0;}  
+.black{width:308px;height:462px; position:absolute; top:0px; }
+.black b{position:absolute; top:200px; left:105px; color:#FFFFFF; display:block; width:110px; height:20px; transition:all 0.3s ease-out; opacity:0; }
+.contents ul li:hover .black{background:#151515; background:rgba(0,0,0, .3); }
+.contents ul li:hover .black b{opacity:1;}  
+.num{  width:100%;  height:100%;}
+.num ul{ width:136px; height:15px;  margin:0 auto;}
+.num ul li{ float:left;  margin-right:24px;  }
+.num ul li:last-child{ margin-right:0;}
+.num ul li>p{color:#777777; font-weight:bolder; margin-top:-2px;}
+	

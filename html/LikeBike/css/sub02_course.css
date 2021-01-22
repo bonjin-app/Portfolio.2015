@@ -1,0 +1,20 @@
+@charset "utf-8";
+/*map 1*/
+#bar_02{width:100%; height:35px; margin-top:52px; background:#6d6d6d;}
+#bar_02>ul{width:100%; text-align:center; padding-top:8px;}
+#bar_02>ul>li{display:inline; padding:0 5% 0 5%; font-size:1em; font-family:"나눔바른고딕"; font-weight:bold; cursor:pointer;}
+#bar_02 a{text-decoration:none; color:#FFFFFF;}
+#bar_02 .indices li.active a {color:#a7b7c8;}
+#slider_map{width:100%; margin-top:50px;}
+#silder_box{width:50%; min-width:1206px; margin:0 auto; height:500px; /*overflow:hidden;*/}
+.slide_panal{position:relative; height:500px;}
+.btn-prev{position:absolute; top:40%; left:8%;}
+.btn-next{position:absolute; top:40%; right:8%;}
+
+#slider_map .slide_panal li{position:absolute; width:1206px; height:500px;}
+#slider_map .slide_panal li.on{display:block;}
+#.slide_panal>li>img{position:absolute; width:1206; z-index:0;}
+#slider_map button {border: 0;background:transparent; cursor: pointer; overflow: hidden;padding: 0;margin: 0 4px;}
+.map_hover{position:absolute; top:0; height:500px; opacity:0;}
+.map_hover>img{}
+/*map 1 end..*/

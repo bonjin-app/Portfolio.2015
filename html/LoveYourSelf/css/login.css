@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+#login_box{width:100%; height:509px; position:relative;}
+/*#login_center{width:1196px; background:url(../img/login_main.png) no-repeat; height:789px; margin:0 auto;}*/
+#login_main{width:951px; height:506px; background:url(../images/login_main.png) no-repeat; margin:110px auto auto auto; position:relative;}
+#login{width:645px; height:315px; position:relative; opacity:1; top:22.9%; left:16%; }
+form{ height:187px; position:relative; top:24%; left:15%;}
+ 
+.id_box{height:30px; width:294px;}
+.id_box>li{float:left; height:30px; font:.8em "나눔바른고딕"; font-weight:bold; }
+.id_box>li:nth-child(1){color:#323232;padding:7px 10px 7px 10px; height:22px}
+.id_box>li:nth-child(2){}
+.id_box input{width:230px; height:25px;}
+
+
+.pass_box{ height:35px; margin-top:8px; width:294px;}
+.pass_box>li{float:left; font:.8em  "나눔바른고딕"; font-weight:bold;}
+.pass_box>li:nth-child(1){color:#323232; padding:7px 3px 0 4px;}
+.pass_box>li:nth-child(2){}
+.pass_box input{width:230px; height:25px;}
+
+form>p{background:#e77f8a; cursor:pointer; font:.8em "나눔바른고딕"; position:absolute; padding:27px 50px 27px 50px; text-align:center; top:0; left:325px; color:#FFFFFF;}
+
+.key{position:absolute; margin:12px 0 0 0; border-bottom:1px solid #8c8f89; height:25px; width:462px;}
+.key>li{float:left;}
+.key>li:first-child{margin:2px 5px 0 3px; height:9px;}
+.key>li:last-child{font:.8em "나눔바른고딕"; cursor:pointer;}
+
+.t{position:absolute; top:130px; width:463px;}
+.t>li{float:left; font:.8em "나눔바른고딕"; margin-top:10px;}
+.t>li:nth-child(2){margin-right:50px; cursor:pointer;}
+.t>li:nth-child(4){cursor:pointer;}
+.t>li>img{margin:3px 7px 0 5px;}
+.t>p{position:absolute; right:0; padding:8px 46px 8px 46px; background:#626262; color:#FFFFFF; cursor:pointer; font:0.8em "나눔바른고딕";}

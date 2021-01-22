@@ -1,0 +1,33 @@
+#qna_box{position:relative; width:100%; margin:0 auto; top:90px; height:870px;}
+#qna_menu{width:900px; margin:0 auto;}
+
+.qna_top_01{height:40px; margin-bottom:10px;}
+.qna_top_01>li{float:left; font:12px "나눔바른고딕"; margin:0.8%;}
+.qna_top_01>li:nth-child(1){color:#000000; font-weight:bold;}
+.qna_top_02{border-bottom:1px solid #c7c7c7; height:35px; border-top:1px solid #c7c7c7;}
+.qna_top_02>li{float:left; font:11px "나눔바른고딕"; margin:0.5%; margin-top:10px; text-align:center;}
+.qna_top_02>li:nth-child(1){color:#000000; font-weight:bold; width:3%;}
+.qna_top_02>li:nth-child(2){color:#000000; font-weight:bold; width:15%;}
+.qna_top_02>li:nth-child(3){color:#000000; font-weight:bold; width:63%; text-align:left;}
+.qna_top_02>li:nth-child(4){color:#000000; font-weight:bold; width:10%;}
+.qna_top_02>li:nth-child(5){color:#000000; font-weight:bold; width:3%;}
+
+.qna_top_03{border-bottom:1px dashed #c7c7c7; height:35px;}
+.qna_top_03>li{float:left; font:10px "나눔바른고딕"; margin:0.5%;  margin-top:10px; letter-spacing:2px;}
+.qna_top_03>li:nth-child(1){color:#000000; width:3%; text-align:center;}
+.qna_top_03>li:nth-child(2){color:#000000; width:15%; text-align:center;}
+.qna_top_03>li:nth-child(3){color:#000000; width:56%; color:#929292;}
+.qna_top_03>li:nth-child(4){color:#000000; width:6%; text-align:right; font-size:10px;}
+.qna_top_03>li:nth-child(5){color:#000000; width:10%; text-align:center; font-size:9px; margin-top:12px;letter-spacing:1px;}
+.qna_top_03>li:nth-child(6){color:#000000; font-weight:bold; width:3%; text-align:center; color:#FF0004;}
+.input_text{width:900px; margin-top:10px; position:relative; height:30px;}
+.input_text>li{position:absolute; width:60px; font:12px "나눔바른고딕"; text-align:center; right:4px; margin:.3%; color:#FFFFFF; background:#575757; padding:.2%;  cursor:pointer;}
+
+#qna_botton{width:900px; height:10px; margin-top:20px;}
+#qna_botton>ul{margin:0 auto; height:18px; width:70px;}
+#qna_botton>ul>li{float:left; font:12px Helvetica-Light; padding:0 5px 0 5px;}
+#qna_botton img{width:6px; height:11px; margin-top:3px;}
+#form{width:900px; height:30px; margin-top:20px;}
+#form>form{margin:0 auto; width:420px; height:30px; position:relative;}
+#form span{font-size:14px; background:#575757; color:#FFFFFF; padding:2px 8px 2px 8px; position:absolute; right:48px; cursor:pointer;}
+#form input{height:19px; margin-top:-2px;}

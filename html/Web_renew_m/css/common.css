@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+#wrap{
+	margin:0 auto;
+	width:320px;
+	height:600px;
+}
+#header{
+	width:100%;
+}
+#head{
+	width:100%; height:40px; margin:0 auto;
+}
+.gnb{float:right; margin-top:9px;}
+.gnb li{float:left; font-size:9px; cursor:pointer; font-weight:bold;}
+#logo{
+	cursor:pointer;
+	float:left;
+	margin-top:9px;
+}
+#footer{
+	margin-top:8px;
+	width:100%;
+	height:30px;
+}
+#footer p{font-size:8px;}

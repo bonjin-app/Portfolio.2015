@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.detail{width:1200px; height:100%; margin:0 auto;}
+.de_01{width:1200px;  height:508px; background:url(../images/detail_01.jpg) no-repeat;
+         margin-top:100px; position:relative;}
+.de_01_sub{width:430px; height:275px; position:absolute; top:140px;right:110px;
+            text-align:right;}
+.de_01_sub ul{margin-bottom:20px; }
+
+.name{ border-bottom:1px solid #A8A8A8; margin-top:10px;  padding-bottom:6px; letter-spacing:-1px;}	 
+.name b{font-size:17px; fontfont-family:"나눔고딕"; color:#4F4F4F;
+         font-weight:900; }	
+		 	
+.price{ width:430px; height:29px; text-align:right;}
+.price li{float:right; padding-right:100px; margin-top:30px;}
+.price li:first-child{padding-right:5px;}
+
+.price1{ width:430px; height:29px; text-align:right;}
+.price1 li{float:right; padding-right:135px; margin-top:40px;}
+.price1 li:first-child{padding-right:5px;}	 	 
+
+.wish{width:450px; height:42px; margin-top:90px;}
+.wish li{float:left;}	
+
+.wh{margin-left:5px; cursor:pointer;}
+.wh b{width:114px; color:#333333; font-size:14px; padding:5px 10px;
+      border:1px solid #949494; }
+.bla{width:217px; height:32px; margin:0 5px; cursor:pointer;}	  
+.bla b{color:#FFFFFF; font-size:16px; background:#393939; padding:5px 45px;}
+		 
+.de_02{width:800px;  height:1297px; margin:0 auto; margin-top:80px; margin-bottom:60px; }
+.order{position:relative; width:190px;  height:33px; margin:0 auto; background:#313131; border:1px solid #000000;}
+.order a{position:absolute; top:5px; left:25px;
+        font-weight:600; color:#ffffff; font-family:"나눔바른고딕", "나눔바른고딕 옛한글", "나눔고딕"; letter-spacing:-1px;}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+#sub_bike_02{width:1232px; margin:0 auto;  margin-top:68px; height:105px;}
+#sub_bike_02>ul{width:1232px; position:relative; height:105px; }
+#sub_bike_02>ul>li{float:left; cursor:pointer;}
+#sub_bike_02>ul>li>img{opacity:0.2;}
+#sub_bike_02 ul li.active img{opacity:1;}
+
+
+
+
+/*.sub_prev_02{position:absolute; top:130px; left:20%;}
+.sub_next_02{position:absolute; top:130px; right:20%;}*/
+
+
+#container{width:562px; margin:0 auto; margin-top:50px;}
+#bike_slide_panal{position:relative;}
+#bike_slide_panal li{position:absolute;}
+#bike_slide_panal li.on{display:block;}
+#sub_arrow_02 button{border:0; background:transparent; cursor:pointer; overflow:hidden; padding:0; margin:0 4px;}
+.line_left_02{position:absolute; top:550px; left:20%;}
+.line_right_02{position:absolute; top:550px; right:20%;}
+#chain{position:absolute; top:722px; right:0;}

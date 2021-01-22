@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/* CSS Document */
+ /* For tablets & smart phones */
+@media (max-width: 767px) {
+body {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#content {
+	width: auto
+}
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+#content {
+	width: auto
+}
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+#content {
+	width: 724px
+}
+}
+
+/* For larger displays */
+
+#content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.control_panel {
+	position: relative;
+	top: 50px;
+	width: 880px;
+	height: 130px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.control_button {
+	cursor: pointer;
+	width: 142px;
+	height: 259px;
+	position: relative;
+	float: left;
+	padding: 0 15px 0 15px;
+	cursor: pointer;
+}
+.control_button:nth-child(1) {
+	
+	background: url(../images/about_images/m_bike_01.png) no-repeat;
+}
+.control_button:nth-child(2) {
+	
+	background: url(../images/about_images/m_bike_02.png) no-repeat;
+}
+.control_button:nth-child(3) {
+	
+	background: url(../images/about_images/m_bike_03.png) no-repeat;
+}
+.control_button:nth-child(4) {
+	
+	background: url(../images/about_images/m_bike_04.png) no-repeat;
+}
+.control_button:nth-child(5) {
+	
+	background: url(../images/about_images/m_bike_05.png) no-repeat;
+}
+.control_button:hover {
+	top: -130px;
+}
+.control_button.active {
+	top: -130px;
+}
+#wrap {
+	width: 100%;
+	margin-top: 120px;
+	min-height: 700px;
+}
+.animation_canvas {
+	width: 758px;
+	margin: 0 auto;
+	height: 634px;
+	overflow: hidden;
+}
+.slider_panel {
+	width: 3800px;
+	position: relative;
+}
+.slider_panel>li {
+	float: left;
+	width: 758px;
+}
+.pre_move {
+	position: absolute;
+	left: 15%;
+	top: 690px;
+	cursor: pointer;
+}
+.next_move {
+	position: absolute;
+	right: 15%;
+	top: 690px;
+	cursor: pointer;
+}
+#bar {
+	position: absolute;
+	width: 100%;
+	height: 42px;
+	top: 627px;
+	background: url(../images/about_images/bar_01.png) repeat-x;
+	z-index: -10;
+}
+
+

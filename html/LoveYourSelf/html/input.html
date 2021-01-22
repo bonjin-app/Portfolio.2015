@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="../css/input.css"/>
+<link type="text/css" rel="stylesheet" href="../css/reset.css"/>
+<link type="text/css" rel="stylesheet" href="../css/common.css"/>
+<script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript" src="http://editor.cafe24.com/js/nneditor.js"></script>
+<title>Untitled Document</title>
+<style>
+  
+  
+  
+</style>
+</head>
+
+<body>
+<div id="indexWrap">
+  <div id="mainWrap"><!--mainWrap-->
+  <div id="top_line"></div>
+    <header>
+      <h1><a href="main.html"><img src="../images/logo.jpg" alt="logo" /></a></h1>
+      <Ul class="login">
+        <li><a href="login.html">LOGIN</a></li>
+        <li>/</li>
+        <li><a href="joinus.html">JOIN US</a></li>
+      </Ul>
+    </header>
+    <nav><!--nav-->
+      <ul class="nav">
+        <li class="first"><a href="about.html">About</a></li>
+        <li><a href="main.html">Wedding</a></li>
+        <li><a href="review.html">Review</a></li>
+        <li><a href="qna.html">Q&amp;A</a></li>
+        <li><a href="#">Order</a></li>
+      </ul>
+    </nav>
+    <!--nav end--> 
+  </div>
+  <!--mainWrap--> 
+</div>
+
+<!--input-->
+<div id="input_box">
+  <div id="top_text">
+    <ul>
+      <li>Order</li>
+      <li>|</li>
+      <li>청첩장 제작에 필요한 정보를 적어주세요.</li>
+    </ul>
+  </div>
+  <div id="text_box">
+    <form id="boardWriteForm">
+      <div class="xans-element- xans-board xans-board-write-1002 xans-board-write xans-board-1002">
+        <div class="boardWrite ">
+          <table border="1" summary="">
+            <div>
+              <tr class="first">
+                <th class="row">제목</th>
+                <td><select>
+                    <option> 결혼식 청첩장 제작 신청합니다.</option>
+                    <option> 결혼식 이미지 청첩장 제작 신청합니다.</option>
+                  </select></td>
+              </tr>
+              <tr class="">
+                <th class="row">작성자</th>
+                <td><input type="text"  /></td>
+              </tr>
+              <tr class="">
+                <th class="row">이메일</th>
+                <td><input id="email1"  type="text"  />
+                  @
+                  <input id="email2" type="text"  />
+                  <select id="email3">
+                    <option value="" selected="selected">- 이메일 선택 -</option>
+                    <option value="naver.com">naver.com</option>
+                    <option value="daum.net">daum.net</option>
+                    <option value="nate.com">nate.com</option>
+                    <option value="hotmail.com">hotmail.com</option>
+                    <option value="yahoo.com">yahoo.com</option>
+                    <option value="empas.com">empas.com</option>
+                    <option value="korea.com">korea.com</option>
+                    <option value="dreamwiz.com">dreamwiz.com</option>
+                    <option value="gmail.com">gmail.com</option>
+                    <option value="etc">직접입력</option>
+                  </select></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="write">
+				 
+                  <script type="text/javascript">
+                NN.Config.instanceID = "content";
+                NN.Config.value = "주문자 이름 :       <br />\n<br />\n//신랑정보//<br />\n신랑 이름(한글) :       <br />\n신랑 이름(영문) :       <br />\n신랑 연락처 :       <br />\n혼주(부) 성함 :       <br />\n혼주(모) 성함 :       <br />\n장남/차남 :       <br />\n<br />\n<br />\n//신부정보//<br />\n신부 이름(한글) :       <br />\n신부 이름(영문) :       <br />\n신부 연락처 :       <br />\n혼주(부) 성함 :       <br />\n혼주(모) 성함 :       <br />\n장녀/차녀 :       <br />\n<br />\n//예식정보//<br />\n예식 날짜 :       <br />\n예식 시간 :       <br />\n예식장 이름 :       <br />\n예식장 연락처 :       <br />\n예식장 주소 :       <br />\n기타 참고사항 :       <br />\n           <br>";
+                NN.Config.toolbarType = "simple";
+                //Editor Height
+                NN.Config.height=400; var oNN_content = new NNEditor();
+                oNN_content.build(); if (typeof $Editor != "object") { $Editor = {
+                        _obj : {}, push : function(obj, id) { this._obj[id] = obj;
+                        }, get : function(id) { return this._obj[id];
+                        }, reset : function(id) { this._obj[id].getText().value = "";
+                           this._obj[id].getIFDoc().body.innerHTML = this._obj[id].Config.START_HTML;
+                        }, contents : function(id, context) {this._obj[id].getText().value = context;
+                            this._obj[id].getIFDoc().body.innerHTML = this._obj[id].view.parsing(2);
+                        } }; } $Editor.push(oNN_content, "content");
+                   </script>
+                  </td>
+              </tr>
+              <tr class="ucc">
+                <th class="row">UCC URL</th>
+                <td><input id="ucc" size="35" type="text"  />
+                  &nbsp;&nbsp;&nbsp;
+                  <label class="size" for="ucc_width">넓이</label>
+                  <input id="ucc_width" name="ucc_width" size="3" value="400" type="text"  />
+                  &nbsp;&nbsp;&nbsp;
+                  <label class="size" for="ucc_height">높이</label>
+                  <input id="ucc_height" name="ucc_height" size="3" value="300" type="text"  /></td>
+              </tr>
+            </div>
+            <tbody>
+              <tr>
+                <th class="row">비밀번호</th>
+                <td><input id="password" type="password"  /></td>
+              </tr>
+              <tr class="">
+                <th  class="row">비밀글설정</th>
+                <td><input type="radio" checked="checked" name="secure" />
+                  <label for="secure0" >공개글</label>
+                  <input type="radio" name="secure"  />
+                  <label for="secure0" >비밀글</label></td>
+              </tr>
+              <tr class="captcha ">
+                <th class="row">자동발송금지<br/>
+                  보안문자</th>
+                <td><img src="../images/auto_text.png"/>
+                  <p>
+                    <input type="text"  />
+                    <a class="box_" href="#">!</a> 영문, 숫자 조합을 공백없이 입력하세요(대소문자구분)</p></td>
+              </tr>
+              <tr class="agree ">
+                <th class="row">개인정보 수집 및 <br/>
+                  이용 동의</th>
+                <td><textarea>
+■ 개인정보의 수집·이용 목적 서비스 제공 및 계약의 이행, 구매 및 대금결제,물품 배송 또는 청구지 발송, 회원관리 등을 위한 목적 
+
+■ 수집하려는 개인정보의 항목 이름, 주소, 연락처, 이메일 
+
+■ 개인정보의 보유 및 이용 기간 회사는 개인정보 수집 및 이용목적이 달성된 후에는 예외없이 해당정보를 파기합니다. </textarea>
+                  <br/>
+                  개인정보 수집 및 이용에 동의하십니까?
+                  <input name="privacy_agreement_radio" type="radio"  />
+                  <label for="privacy_agreement_radio0" >동의함</label>
+                  <input name="privacy_agreement_radio" type="radio" checked="checked"  />
+                  <label for="privacy_agreement_radio1" >동의안함</label></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </form>
+    
+        </div>
+  </div>
+  <div class="btnArea"> 
+           <span class="left"><a href="#">목록</a></span> <a href="#">취소</a>  <a href="#">등록</a></div>
+</div>
+<!--input end-->
+
+
+<!--footer-->
+    <footer>
+      <ul id="footer">
+        <li class="footer_logo"><img src="../images/footer_logo.png" alt="footer_logo"></li>
+        <li class="footer_text">
+          <p>Company : 러브유어셀프 스튜디오  Owner:최태호 HeadDesinger:최태호 Programmer:최태호 Business Num:616-34-8357</p>
+          <p>Mail: loveyourself@naver.com Tel:031-702-8357 Location: 경기도 성남시 분당구 분당동 115-5 </p>
+          <small>Copyright &copy; 2015 Powered&Desinged LOVEYOURSELF corp. ALL RIGHT RESERVED. </small>
+        </li>
+      </ul>
+    </footer>
+    <!--footer end-->
+</body>
+</html>
