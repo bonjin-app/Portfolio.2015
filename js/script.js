@@ -14,7 +14,7 @@ $(document).ready(function(e) {
 
 
 $(function(){
-	
+
 	/*클릭버튼 opacity*/
 	clickButton1();
 	function clickButton1(){
@@ -193,15 +193,18 @@ $(function(){
 	  /*Scroll 부드럽게*/
 	  var scrollSpeed=700;
 	  function pageScroll(object){
+		  console.log(object);
+		  console.log(!object);
 		  if(!object){
-		     $.scrollTo({top:0, left:0}, scrollSpeed, {easing : "swing"});
+			  $("html,body").animate({scrollTop: 0}, scrollSpeed);
 		  }else{
 			 var topPos=$(object).offset().top;  //.top-60
-			 $.scrollTo({top:topPos , left:0}, scrollSpeed,{easing : "swing"}); 
+			  $("html,body").animate({scrollTop: topPos}, scrollSpeed);
 	      }
 	   };
 	  /*main left menu click*/
 	  $(".main-menu ul li").click(function(){
+		  console.log("hkhkljhlk")
 		  var goPage = $(this).find('a').attr('href');
 		  pageScroll(goPage);
 		  return false;		   
