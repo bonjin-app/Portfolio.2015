@@ -7,4 +7,6 @@
 
 - <a href="http://gigas.synology.me:7070/geniuschoi" target="_blank">보러가기</a>
 
+- [보러가기](http://gigas.synology.me:7070/geniuschoi){: target="_blank"}
+
 <img src="http://gigas.synology.me:7070/geniuschoi/images/responsive.jpg" width="50%">
