@@ -202,7 +202,6 @@ $(function(){
 	   };
 	  /*main left menu click*/
 	  $(".main-menu ul li").click(function(){
-		  console.log("hkhkljhlk")
 		  var goPage = $(this).find('a').attr('href');
 		  pageScroll(goPage);
 		  return false;		   
