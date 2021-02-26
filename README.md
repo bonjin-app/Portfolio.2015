@@ -8,7 +8,7 @@
 
 - [보러가기](http://gigas.synology.me:7070/geniuschoi)
 
-<img src="http://gigas.synology.me/portfolio/images/openChahtting/openchatting-username.png" width="50%">
-<img src="http://gigas.synology.me/portfolio/images/openChahtting/openchatting-receiver.png" width="50%">
-<img src="http://gigas.synology.me/portfolio/images/openChahtting/openchatting-sender.png" width="50%">
+<img src="http://gigas.synology.me/portfolio/images/openChatting/openchatting-username.png" width="50%">
+<img src="http://gigas.synology.me/portfolio/images/openChatting/openchatting-receiver.png" width="50%">
+<img src="http://gigas.synology.me/portfolio/images/openChatting/openchatting-sender.png" width="50%">
 
