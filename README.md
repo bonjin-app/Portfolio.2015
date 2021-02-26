@@ -8,4 +8,4 @@
 
 - [보러가기](http://gigas.synology.me:7070/geniuschoi)
 
-<img src="http://gigas.synology.me:7070/portfolio/images/openChatting.png" width="50%">
+<img src="http://gigas.synology.me/portfolio/images/openChatting.png" width="50%">
